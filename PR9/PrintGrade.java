@@ -6,6 +6,8 @@ public class PrintGrade {
             Scanner sc = new Scanner(System.in);
             System.out.println("ENter Your mark");
             double mark = sc.nextDouble();
+
+            
             if (mark >= 80) {
                   System.out.println("E Grade");
             } else if (mark >= 70 && mark < 80) {
