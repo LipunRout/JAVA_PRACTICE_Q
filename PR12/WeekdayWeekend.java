@@ -6,19 +6,7 @@ public class WeekdayWeekend {
             System.out.println("Enter Your Day(In number) :");
             int Day = sc.nextInt();
             switch (Day) {
-                  case 1:
-                        System.out.println("Weekday");
-                        break;
-                  case 2:
-                        System.out.println("Weekday");
-                        break;
-                  case 3:
-                        System.out.println("Weekday");
-                        break;
-                  case 4:
-                        System.out.println("Weekday");
-                        break;
-                  case 5:
+                  case 1,2,3,4,5:
                         System.out.println("Weekday");
                         break;
                   case 6:
